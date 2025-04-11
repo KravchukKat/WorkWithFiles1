@@ -1,0 +1,20 @@
+{
+  "group": "34-qa-guru",
+    "checklist": [
+      {
+        "username": "Petr",
+        "address": [
+          { "street": "123 Main St", "phone": "212-555-1234" },
+          { "street": "6 Denmark Street", "phone": "038-763-9876" }
+        ]
+      },
+    {
+        "username": "John",
+        "address": [
+          { "street": "59th Street", "phone": "646-555-4567" },
+          { "street": "Columbia Road 10", "phone": "342-051-2638" }
+      ]
+    }
+    ]
+}
+
