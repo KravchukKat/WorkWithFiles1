@@ -25,13 +25,13 @@ public class JsonParsingFilesTests {
 
             UserName petrUserName = group.getChecklist().get(0);
             assertEquals("Petr", petrUserName.getUsername());
-            assertEquals("123 Main St", petrUserName.getAddresses().get(0).getStreet());
-            assertEquals("212-555-1234", petrUserName.getAddresses().get(0).getPhone());
+            assertEquals("123 Main St", petrUserName.getAddress().get(0).getStreet());
+            assertEquals("212-555-1234", petrUserName.getAddress().get(0).getPhone());
 
             UserName johnUserName = group.getChecklist().get(1);
             assertEquals("John", johnUserName.getUsername());
-            assertEquals("59th Street", johnUserName.getAddresses().get(0).getStreet());
-            assertEquals("646-555-4567", johnUserName.getAddresses().get(0).getPhone());
+            assertEquals("59th Street", johnUserName.getAddress().get(0).getStreet());
+            assertEquals("646-555-4567", johnUserName.getAddress().get(0).getPhone());
         }
     }
 }
